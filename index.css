@@ -1,74 +1,83 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .imagen1 {
-    height: 50px;
+  height: 50px;
 }
 
 .itemsbanner {
-    background-color: #9B00FF;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background-color: #9b00ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .itemsspans {
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: inline;
-    justify-content: center;
-    align-items: center;
-    margin-left: 30px;
-
+  color: white;
+  font-family: Poppins;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
 }
 
 .divuno {
-    display: flex;
-    align-items: center;
-    margin-left: 30px;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
 }
 
 .inputuno {
-    margin-right: 450px;
+  margin-right: 550px;
+  justify-content: space-between;
+  display: flex;
 }
 
-.card-dad{
-    margin: 10px;
-    background-color: #4D4D4D;
-    width: 300px;
-    border-radius: 20px;
-    border: 1px solid black;
+.card-dad {
+  margin: 10px;
+  background-color: #212529;
+  width: 300px;
+  border-radius: 20px;
+  border: 2px solid black;
 }
 
 .card-dad img {
-    width: 100%;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
 }
 
 .content {
-    margin: 30px 20px;
-    color: white;
+  font-family: Poppins;
+  margin: 30px 20px;
+  color: white;
 }
 
 .card-dad .boton {
-    width: 200px;
-    height: 50px;
-    background-color: #1270FF;
-    color: white;
-    border-radius: 10px;
-    border: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-
+  width: 200px;
+  height: 50px;
+  background-color: #1270ff;
+  color: white;
+  border-radius: 10px;
+  border: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
 }
 
-.dad-boton{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: 20px;
+.dad-boton {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+}
+
+.christopher {
+  width: 250px;
+  height: 25px;
+}
+
+.imgbuscar {
+  width: 25px;
 }
